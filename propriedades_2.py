@@ -13,4 +13,4 @@ class Pessoa:
         return _ano_atual - self._ano_nascimento
 
 pessoa = Pessoa("Luiza", 1998)
-print(f"Nome: {pessoa.nome} \t Idade: {pessoa.idade}")
+print(f"\nNome: {pessoa.nome} \t Idade: {pessoa.idade}")
